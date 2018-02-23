@@ -2,6 +2,7 @@
 const Form = require("../models/form");
 
 const form_list = (req, res) => {
+  console.log('fired');
   Form.find().exec((err, forms) => {
     if (err) {
       res.send("Error");

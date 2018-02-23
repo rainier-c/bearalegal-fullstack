@@ -23,12 +23,12 @@ app.use('*', (req, res, next) => {
   }
   next();
 });
-
-// Serve React client application
-app.use(express.static(path.join(__dirname, '../client/public')));
-
 // Use custom routes
 app.use('/api', routes);
+
+// Serve React client application
+app.use('/', express.static(path.join(__dirname, '../client/public/')));
+
 
 // Listen on env port or port 3000
 const server = app.listen(process.env.PORT || 3000, () => {
