@@ -1,0 +1,8 @@
+node_modules
+client/dist
+client/bundle
+client/compiled
+config/*
+dist.js
+bundle.js
+compiled.js
