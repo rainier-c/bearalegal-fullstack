@@ -2,6 +2,9 @@ node_modules
 client/dist
 client/bundle
 client/compiled
+client/public/dist
+client/public/bundled
+client/public/compiled
 config/*
 dist.js
 bundle.js
