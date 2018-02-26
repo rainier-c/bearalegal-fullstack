@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+.Navbar {
+  margin-bottom: 40px;
+  background-color: #16425b;
+}
+
+.navbar-brand {
+  font-family: 'Roboto Slab', serif;
+  font-size: 2em;
+}
+
+h6 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.2em;
+  color: #16425b;
+}

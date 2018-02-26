@@ -11,6 +11,5 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 // Import custom CSS
 import './styles/custom.css';
-import './assets/bearalegal_face.png';
 
 ReactDOM.render(<App />, document.getElementById('root'));

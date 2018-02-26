@@ -9,3 +9,5 @@ config/*
 dist.js
 bundle.js
 compiled.js
+.DS_Store
+.ds_store
